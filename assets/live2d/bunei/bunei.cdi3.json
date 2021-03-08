@@ -1,0 +1,571 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "Cheek"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeL Smile"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeR Smile"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup3",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup3",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup4",
+			"Name": "BrowL Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup4",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "ParamGroup4",
+			"Name": "BrowL Angle"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup4",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "ParamGroup4",
+			"Name": "BrowL Form"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup4",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup5",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup5",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup5",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup5",
+			"Name": "Breathing"
+		},
+		{
+			"Id": "UpperArmL",
+			"GroupId": "ParamGroup6",
+			"Name": "upper arm L"
+		},
+		{
+			"Id": "UpperArmR",
+			"GroupId": "ParamGroup6",
+			"Name": "upper arm R"
+		},
+		{
+			"Id": "LowerArmL",
+			"GroupId": "ParamGroup6",
+			"Name": "lower arm L"
+		},
+		{
+			"Id": "LowerArmR",
+			"GroupId": "ParamGroup6",
+			"Name": "lower arm R"
+		},
+		{
+			"Id": "HandL",
+			"GroupId": "ParamGroup6",
+			"Name": "hand L"
+		},
+		{
+			"Id": "HandR",
+			"GroupId": "ParamGroup6",
+			"Name": "hand R"
+		},
+		{
+			"Id": "TailRotation",
+			"GroupId": "ParamGroup17",
+			"Name": "tail rotation"
+		},
+		{
+			"Id": "TailMiddle",
+			"GroupId": "ParamGroup17",
+			"Name": "tail"
+		},
+		{
+			"Id": "TailBot",
+			"GroupId": "ParamGroup17",
+			"Name": "tail  bottom"
+		},
+		{
+			"Id": "EarringRotation",
+			"GroupId": "ParamGroup7",
+			"Name": "earring 1 main"
+		},
+		{
+			"Id": "EarringTail",
+			"GroupId": "ParamGroup7",
+			"Name": "earring 2 tail"
+		},
+		{
+			"Id": "EarringSize",
+			"GroupId": "ParamGroup7",
+			"Name": "earring 3 size"
+		},
+		{
+			"Id": "EarringRibbon",
+			"GroupId": "ParamGroup7",
+			"Name": "earring 5 ribbonL"
+		},
+		{
+			"Id": "EarringRibbonTop",
+			"GroupId": "ParamGroup7",
+			"Name": "earring 6 ribbontop"
+		},
+		{
+			"Id": "ChainX",
+			"GroupId": "ParamGroup8",
+			"Name": "chain 1 x"
+		},
+		{
+			"Id": "ChainY",
+			"GroupId": "ParamGroup8",
+			"Name": "chain 2 y"
+		},
+		{
+			"Id": "ChainXY",
+			"GroupId": "ParamGroup8",
+			"Name": "chain 3 XY"
+		},
+		{
+			"Id": "BoobieX",
+			"GroupId": "ParamGroup9",
+			"Name": "boobie 1 move x"
+		},
+		{
+			"Id": "BoobieY",
+			"GroupId": "ParamGroup9",
+			"Name": "boobie 2 move y"
+		},
+		{
+			"Id": "KnotRotation",
+			"GroupId": "ParamGroup10",
+			"Name": "knot 1 main"
+		},
+		{
+			"Id": "KnotShape",
+			"GroupId": "ParamGroup10",
+			"Name": "knot 2 shape"
+		},
+		{
+			"Id": "KnotBottomRot",
+			"GroupId": "ParamGroup10",
+			"Name": "knot 3 bottom z"
+		},
+		{
+			"Id": "KnotTail",
+			"GroupId": "ParamGroup10",
+			"Name": "knot 4 tail"
+		},
+		{
+			"Id": "BigRibbonMain",
+			"GroupId": "ParamGroup11",
+			"Name": "ribbon1 l main"
+		},
+		{
+			"Id": "BigRibbonTail",
+			"GroupId": "ParamGroup11",
+			"Name": "ribbon1 2 tail"
+		},
+		{
+			"Id": "SmalRibbonMain",
+			"GroupId": "ParamGroup11",
+			"Name": "ribbon2 1 main"
+		},
+		{
+			"Id": "SmalRibbonTail",
+			"GroupId": "ParamGroup11",
+			"Name": "ribbon2 2 tail"
+		},
+		{
+			"Id": "RibbonTop",
+			"GroupId": "ParamGroup11",
+			"Name": "ribbon 3 top"
+		},
+		{
+			"Id": "BraceletX",
+			"GroupId": "ParamGroup12",
+			"Name": "braceletR 1 x"
+		},
+		{
+			"Id": "BraceletY",
+			"GroupId": "ParamGroup12",
+			"Name": "braceletR 2 y"
+		},
+		{
+			"Id": "BigSkirtXY",
+			"GroupId": "ParamGroup13",
+			"Name": "skirt 1 xy"
+		},
+		{
+			"Id": "BigSkirtX",
+			"GroupId": "ParamGroup13",
+			"Name": "skirt 2 x"
+		},
+		{
+			"Id": "BigSkirtY",
+			"GroupId": "ParamGroup13",
+			"Name": "skirt 1 y"
+		},
+		{
+			"Id": "MiddleSkirtX",
+			"GroupId": "ParamGroup13",
+			"Name": "skirt2 x"
+		},
+		{
+			"Id": "MiddleSkirtY",
+			"GroupId": "ParamGroup13",
+			"Name": "skirt2 y"
+		},
+		{
+			"Id": "BlackSkirtX",
+			"GroupId": "ParamGroup13",
+			"Name": "skirt 3 x"
+		},
+		{
+			"Id": "BlackSkirtY",
+			"GroupId": "ParamGroup13",
+			"Name": "skirt 3 y"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup14",
+			"Name": "bangs front 1 main"
+		},
+		{
+			"Id": "BangFrontTail",
+			"GroupId": "ParamGroup14",
+			"Name": "bangs front 1-"
+		},
+		{
+			"Id": "BangMiddleMain",
+			"GroupId": "ParamGroup14",
+			"Name": "bang front 2 middle"
+		},
+		{
+			"Id": "BangMiddleTail",
+			"GroupId": "ParamGroup14",
+			"Name": "bang front 2- middle tail"
+		},
+		{
+			"Id": "BangRMain",
+			"GroupId": "ParamGroup14",
+			"Name": "bang front 3 move r"
+		},
+		{
+			"Id": "BangRTail",
+			"GroupId": "ParamGroup14",
+			"Name": "bang front 3- move tail"
+		},
+		{
+			"Id": "AhogeY",
+			"GroupId": "ParamGroup14",
+			"Name": "ahoge 1- tail"
+		},
+		{
+			"Id": "AhogeX",
+			"GroupId": "ParamGroup14",
+			"Name": "ahoge 1 x"
+		},
+		{
+			"Id": "SideHairMain",
+			"GroupId": "ParamGroup15",
+			"Name": "sideL 1 x"
+		},
+		{
+			"Id": "SideHairLTail",
+			"GroupId": "ParamGroup15",
+			"Name": "sideL 1- tail"
+		},
+		{
+			"Id": "SideHairRTail",
+			"GroupId": "ParamGroup15",
+			"Name": "sideR 2- tail"
+		},
+		{
+			"Id": "BackSideMain",
+			"GroupId": "ParamGroup16",
+			"Name": "back 1 side tail main"
+		},
+		{
+			"Id": "BackSideTail",
+			"GroupId": "ParamGroup16",
+			"Name": "back 2 tail tail"
+		},
+		{
+			"Id": "BackSideBottom",
+			"GroupId": "ParamGroup16",
+			"Name": "back 3 bottom tail"
+		},
+		{
+			"Id": "BackBackX",
+			"GroupId": "ParamGroup16",
+			"Name": "back back hair"
+		},
+		{
+			"Id": "BackLeftX",
+			"GroupId": "ParamGroup16",
+			"Name": "back left x"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "eye"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "mouth"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "brow"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "face"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "body"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "arm"
+		},
+		{
+			"Id": "ParamGroup17",
+			"GroupId": "",
+			"Name": "tail"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "earring"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "chain chest"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "boobie"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "knot"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "ribbon"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "bracelet"
+		},
+		{
+			"Id": "ParamGroup13",
+			"GroupId": "",
+			"Name": "skirt"
+		},
+		{
+			"Id": "ParamGroup14",
+			"GroupId": "",
+			"Name": "front hair"
+		},
+		{
+			"Id": "ParamGroup15",
+			"GroupId": "",
+			"Name": "side hair"
+		},
+		{
+			"Id": "ParamGroup16",
+			"GroupId": "",
+			"Name": "back hair"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part13",
+			"Name": "vtubemodelbun (5).psd"
+		},
+		{
+			"Id": "PartRough",
+			"Name": "Rough Design"
+		},
+		{
+			"Id": "PartFace",
+			"Name": "Face"
+		},
+		{
+			"Id": "PartEye",
+			"Name": "Eye"
+		},
+		{
+			"Id": "PartEyeBall",
+			"Name": "Eyeball"
+		},
+		{
+			"Id": "PartBrow",
+			"Name": "Brows"
+		},
+		{
+			"Id": "PartMouth",
+			"Name": "Mouth"
+		},
+		{
+			"Id": "PartNose",
+			"Name": "Nose"
+		},
+		{
+			"Id": "PartEar",
+			"Name": "Ear"
+		},
+		{
+			"Id": "PartHairFront",
+			"Name": "Bangs"
+		},
+		{
+			"Id": "PartHairSide",
+			"Name": "Hair Side"
+		},
+		{
+			"Id": "PartHairBack",
+			"Name": "Hair Back"
+		},
+		{
+			"Id": "PartNeck",
+			"Name": "Neck"
+		},
+		{
+			"Id": "Part15",
+			"Name": "Arms"
+		},
+		{
+			"Id": "Part14",
+			"Name": "Lower Body"
+		},
+		{
+			"Id": "PartBody",
+			"Name": "Body"
+		},
+		{
+			"Id": "PartBackground",
+			"Name": "Background"
+		},
+		{
+			"Id": "PartSketch",
+			"Name": "[ Guide Image]"
+		},
+		{
+			"Id": "ref",
+			"Name": "ref"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		],
+		[
+			"EarringRotation",
+			"EarringTail"
+		],
+		[
+			"BoobieX",
+			"BoobieY"
+		],
+		[
+			"BraceletX",
+			"BraceletY"
+		],
+		[
+			"MiddleSkirtX",
+			"MiddleSkirtY"
+		]
+	]
+}
