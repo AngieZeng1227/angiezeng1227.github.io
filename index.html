@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>comm page tenko</title>
+
+    <link rel="stylesheet" href="assets/styles.css">
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Live2DCubismCore -->
     <script src="https://cdn.jsdelivr.net/gh/litstronger/live2d-moc3@master/js/frame/live2dcubismcore.min.js"></script>
@@ -22,13 +24,16 @@
 </head>
 <body>
     <!-- Canvas -->
+
+    hi lol this is ugly
+
     <div class="Canvas" style="align-self:center" id="L2dCanvas"></div>
     <script>
         var config = {
-            width: window.innerWidth,
-            height: window.innerHeight,
-            left: '0px',
-            bottom: '0px',
+            width: 600,
+            height: 800,
+            left: '50px',
+            top: '80px',
             basePath: 'assets',
             role: 'Angieeechan',
             opacity: 1,
@@ -36,5 +41,13 @@
         }
         var v = new Viewer(config);  
     </script>
+
+    <div class="ari-image-container">
+        <span class="ari-title">peep my cat</span>
+        <img class="ari-image" src="assets/awiwi.jpg" alt="peep my cat">
+    </div>
+    
+
+
 </body>
 </html>
