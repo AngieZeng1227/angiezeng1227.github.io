@@ -4,6 +4,9 @@ body {
     font-size: 25px;
     color: rgb(175, 127, 127);
     background: rgb(255, 218, 218);
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
 }
 
 .Canvas {
@@ -19,6 +22,13 @@ body {
     min-width: 200px;
     max-width: 200px;
 
+}
+
+.detail-image-title {
+    order: 0;
+    position: absolute;
+    top: 260px;
+    right: -16px;
 }
 
 .main-content {
@@ -45,10 +55,21 @@ body {
     max-height: 50px;
 }
 
-.hidden-detail .canvas-container {
-    display: none;
+.canvas-container {
+    flex: 1 1 auto;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 800px;
+    max-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.canvas-frame {
+    position: relative;
+    text-align: center;
+}
 
 .main-header {
     flex: 0 1 auto;

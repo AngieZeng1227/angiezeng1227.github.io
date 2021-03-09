@@ -48,36 +48,39 @@
         </div>
 
         <div class="canvas-container">
-            <div class="Canvas" style="align-self:center" id="L2dCanvas"></div>
-            <script>
-                var config = {
+            <div class="canvas-frame">
+                <div class="Canvas" style="align-self:center" id="L2dCanvas"></div>
+                <script>
+                    var config = {
 
-                    width: 600,
-                    height: 800,
+                        width: 600,
+                        height: 800,
 
-                    left: '230px',
-                    top: '30px',
-                    basePath: 'assets/live2d',
-                    role: 'bunei',
-                    opacity: 1,
-                    mobile: true
-                }
+                        left: '230px',
+                        top: '30px',
+                        basePath: 'assets/live2d',
+                        role: 'bunei',
+                        opacity: 1,
+                        mobile: true
+                    }
 
-            
-                document.getElementById('buneiModel').addEventListener('click', function (event) {
-                    event.preventDefault();
-                    config.role = 'bunei';
+
+                    document.getElementById('buneiModel').addEventListener('click', function (event) {
+                        event.preventDefault();
+                        config.role = 'bunei';
+                        var v = new Viewer(config);
+                    });
+
+                    document.getElementById('angieModel').addEventListener('click', function (event) {
+                        event.preventDefault();
+                        config.role = 'Angieeechan';
+                        var v = new Viewer(config);
+                    });
+
                     var v = new Viewer(config);
-                });
-
-                document.getElementById('angieModel').addEventListener('click', function (event) {
-                    event.preventDefault();
-                    config.role = 'Angieeechan';
-                    var v = new Viewer(config);
-                });
-
-                var v = new Viewer(config);
-            </script>
+                </script>
+                <span class="detail-image-title"></span>
+            </div>
         </div>
 
         <div class="ari-image-container">
