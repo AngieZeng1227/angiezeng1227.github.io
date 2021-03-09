@@ -28,19 +28,23 @@
 <body>
     <!-- Canvas -->
 
-    hi lol this is ugly
+    tenko live2d models
     <main class="main-content">
+
         <div class="thumbnail-list">
-            <li class="thumbnail-item">
-                <a href="#" id="angieModel" data-image-title="angelise model" data-image-url="assets/angiethumb.png">
-                    <img class="thumbnail-image" src="assets/angiethumb.png" alt="angelise model">
-                </a>
-            </li>
             <li class="thumbnail-item">
                 <a href="#" id="buneiModel" data-image-title="bunei model" data-image-url="assets/buneithumb.png">
                     <img class="thumbnail-image" src="assets/buneithumb.png" alt="bunei model">
                 </a>
             </li>
+            <li class="thumbnail-item">
+                <a href="#" id="angieModel" data-image-title="angelise model" data-image-url="assets/angiethumb.png">
+                    <img class="thumbnail-image" src="assets/angiethumb.png" alt="angelise model">
+                </a>
+            </li>
+
+
+
         </div>
 
         <div class="canvas-container">
@@ -58,6 +62,8 @@
                     opacity: 1,
                     mobile: true
                 }
+
+            
                 document.getElementById('buneiModel').addEventListener('click', function (event) {
                     event.preventDefault();
                     config.role = 'bunei';
@@ -69,6 +75,7 @@
                     config.role = 'Angieeechan';
                     var v = new Viewer(config);
                 });
+
                 var v = new Viewer(config);
             </script>
         </div>

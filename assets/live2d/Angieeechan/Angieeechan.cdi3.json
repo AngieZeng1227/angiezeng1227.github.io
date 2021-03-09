@@ -321,6 +321,10 @@
 	],
 	"Parts": [
 		{
+			"Id": "Part2",
+			"Name": "Illustration3.png"
+		},
+		{
 			"Id": "Part8",
 			"Name": "100 (2) (1).psd"
 		},

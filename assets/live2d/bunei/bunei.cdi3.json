@@ -466,6 +466,10 @@
 	],
 	"Parts": [
 		{
+			"Id": "Part",
+			"Name": "Illustration3.png"
+		},
+		{
 			"Id": "Part13",
 			"Name": "vtubemodelbun (5).psd"
 		},
@@ -550,6 +554,14 @@
 		[
 			"ParamMouthForm",
 			"ParamMouthOpenY"
+		],
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamBodyAngleX",
+			"ParamBodyAngleY"
 		],
 		[
 			"EarringRotation",
